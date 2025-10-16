@@ -1,6 +1,6 @@
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_ollama import OllamaEmbeddings
-from langchain_ollama import ChatOllama
+# from langchain_ollama import ChatOllama
 from langchain_pinecone import PineconeVectorStore
 from langchain_core.prompts import MessagesPlaceholder, ChatPromptTemplate, FewShotChatMessagePromptTemplate
 from langchain_core.output_parsers import StrOutputParser
